@@ -1,0 +1,40 @@
+{
+  "name": "@glidejs/vue-glide",
+  "version": "3.0.0",
+  "description": "A Glide.js extension for Vue",
+  "module": "dist/vue-glide.esm.js",
+  "main": "dist/vue-glide.js",
+  "unpkg": "dist/vue-glide.js",
+  "scripts": {
+    "build:esm": "rollup --config build/esm.js",
+    "build:umd": "rollup --config build/umd.js && rollup --config build/umd.min.js",
+    "build": "npm run build:esm && npm run build:umd",
+    "lint": "eslint {src,tests}/**/*.js"
+  },
+  "author": "jedrzejchalubek <jedrzej.chalubek@gmail.com> (https://jedrzejchalubek.com)",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": ">=3.0.0",
+    "eslint-plugin-vue": "^4.4.0",
+    "rollup": "^0.48.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-plugin-vue": "^3.0.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}

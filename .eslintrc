@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "eslint-config-standard",
+    "plugin:vue/essential"
+  ]
+}
