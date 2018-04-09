@@ -1,5 +1,7 @@
 # vue-glide
 
+> ⚠️ WIP ⚠️
+
 A Glide.js extension for Vue
 
 ### Installation
