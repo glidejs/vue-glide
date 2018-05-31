@@ -11,7 +11,7 @@ export default {
   props: {
     settings: {
       type: Object,
-      default: () => {}
+      default: () => ({})
     }
   },
 
