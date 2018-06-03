@@ -8,31 +8,6 @@
 
 <script>
 export default {
-
+  name: 'GlideTrack',
 }
 </script>
-
-<style scoped>
-.glide__track {
-  overflow: hidden;
-}
-
-.glide__slides {
-  position: relative;
-  width: 100%;
-  list-style: none;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  touch-action: pan-Y;
-  overflow: hidden;
-  padding: 0;
-  white-space: nowrap;
-  display: flex;
-  flex-wrap: nowrap;
-  will-change: transform;
-}
-
-.glide__slides--dragging {
-  user-select: none;
-}
-</style>
