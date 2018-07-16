@@ -11,8 +11,8 @@ npm install --save vue-glide
 
 ## Credits
 
-- [Jędrzej Chałubek][https://github.com/jedrzejchalubek] - creator
-- [All Contributors][../../contributors]
+- [Jędrzej Chałubek](https://github.com/jedrzejchalubek) - Creator
+- [All Contributors](../../contributors)
 
 ## License
 
