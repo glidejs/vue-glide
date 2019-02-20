@@ -14,7 +14,7 @@
   "author": "jedrzejchalubek <jedrzej.chalubek@gmail.com> (https://jedrzejchalubek.com)",
   "license": "MIT",
   "dependencies": {
-    "@glidejs/glide": "^3.0.1",
+    "@glidejs/glide": "^3.2.6",
     "vue": "^2.0.0"
   },
   "devDependencies": {
