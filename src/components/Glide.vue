@@ -15,12 +15,19 @@ export default {
     settings: {
       type: Object,
       default: () => {}
+    },
+    delayInitialization: {
+      type: Boolean,
+      default: false
     }
   },
 
   methods: {
     go (pattern) {
       this.glide.go(pattern)
+    },
+    init () {
+      this.glide.mount()
     }
   },
 
@@ -41,7 +48,9 @@ export default {
       })
     })
 
-    this.glide.mount()
+    if (!this.delayInitialization) {
+      this.init()
+    }
   }
 }
 </script>
